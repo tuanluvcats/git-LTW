@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Tuan05_TH1.Models.Deparment>
+@{
+    ViewBag.Title = "HienThiPhongBan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>HienThiPhongBan</h2>
+<table class="table table-striped border">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Mã phòng
+            </th>
+            <th>
+                Tên phòng
+            </th>
+            <th>
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaPB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ten)
+            </td>
+         
+            <td>
+                @Html.ActionLink("Details", "ChiTietPhongBan", new { id = item.MaPB }) |
+                @Html.ActionLink("List Employee", "List Employee", new { /* id = item.Primary */})
+            </td>
+        </tr>
+    }
+</table>   

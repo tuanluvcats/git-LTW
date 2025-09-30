@@ -1,0 +1,30 @@
+﻿@model IEnumerable<LTW_Tuan05_Bai2.Models.Loai>
+@{
+    ViewBag.Title = "HienThiLoai";
+}
+
+<h2>HienThiLoai</h2>
+
+<table class="table table-striped border">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Mã loại
+            </th>
+            <th>
+                Tên Loại
+            </th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenLoai)
+            </td>
+        </tr>
+    }
+</table>   

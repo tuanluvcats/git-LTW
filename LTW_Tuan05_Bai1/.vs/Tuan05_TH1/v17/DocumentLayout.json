@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|c:\\users\\gmone\\documents\\github\\ltw\\tuan05_th1\\tuan05_th1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\tuan05_th1\\views\\home\\chitietphongban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\views\\home\\chitietphongban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\tuan05_th1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\tuan05_th1\\viewmodels\\dulieuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\viewmodels\\dulieuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\tuan05_th1\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\tuan05_th1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\tuan05_th1\\views\\home\\hienthinhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\views\\home\\hienthinhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\tuan05_th1\\views\\home\\hienthiphongban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BAD7755-1DBB-40DA-99B2-7DF5A9021937}|Tuan05_TH1\\Tuan05_TH1.csproj|solutionrelative:tuan05_th1\\views\\home\\hienthiphongban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Models\\Employee.cs",
+              "RelativeToolTip": "Tuan05_TH1\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:15:05.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DuLieuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\ViewModels\\DuLieuViewModel.cs",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\ViewModels\\DuLieuViewModel.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\ViewModels\\DuLieuViewModel.cs",
+              "RelativeToolTip": "Tuan05_TH1\\ViewModels\\DuLieuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:40:37.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HienThiNhanVien.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Views\\Home\\HienThiNhanVien.cshtml",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\Views\\Home\\HienThiNhanVien.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Views\\Home\\HienThiNhanVien.cshtml",
+              "RelativeToolTip": "Tuan05_TH1\\Views\\Home\\HienThiNhanVien.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T08:26:25.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTietPhongBan.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Views\\Home\\ChiTietPhongBan.cshtml",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\Views\\Home\\ChiTietPhongBan.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Views\\Home\\ChiTietPhongBan.cshtml",
+              "RelativeToolTip": "Tuan05_TH1\\Views\\Home\\ChiTietPhongBan.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T08:20:47.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Tuan05_TH1\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:20:32.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DuLieu.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Models\\DuLieu.cs",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\Models\\DuLieu.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Models\\DuLieu.cs",
+              "RelativeToolTip": "Tuan05_TH1\\Models\\DuLieu.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:19:11.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tuan05_TH1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:18:01.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HienThiPhongBan.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Views\\Home\\HienThiPhongBan.cshtml",
+              "RelativeDocumentMoniker": "Tuan05_TH1\\Views\\Home\\HienThiPhongBan.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\GitHub\\LTW\\Tuan05_TH1\\Tuan05_TH1\\Views\\Home\\HienThiPhongBan.cshtml",
+              "RelativeToolTip": "Tuan05_TH1\\Views\\Home\\HienThiPhongBan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T08:18:14.146Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+﻿@model Tuan05_TH1.ViewModels.DuLieuViewModel
+
+@{
+    ViewBag.Title = "ChiTietPhongBan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Chi tiết phòng ban</h2>
+<p>
+    <strong>Mã phòng ban:</strong> @Model.PB.MaPB<br />
+    <strong>Tên phòng ban:</strong> @Model.PB.Ten
+</p>
+
+<h3>Danh sách nhân viên trong phòng ban</h3>
+<table class="table table-striped border">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Mã nhân viên
+            </th>
+            <th>
+                Tên nhân viên
+            </th>
+            <th>
+                Giới tính
+            </th>
+            <th>
+                Tỉnh/Thành phố
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (var item in Model.dsNV)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tinh)
+            </td>
+        </tr>
+    }
+</table>

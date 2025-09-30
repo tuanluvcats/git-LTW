@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|c:\\users\\gmone\\documents\\ltw\\git-ltw\\ltw_tuan05_bai2\\ltw_tuan05_bai2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\ltw_tuan05_bai2\\views\\home\\phanloaisp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\views\\home\\phanloaisp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\ltw_tuan05_bai2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\ltw_tuan05_bai2\\views\\home\\timkiemsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\views\\home\\timkiemsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\ltw_tuan05_bai2\\viewmodels\\dulieuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\viewmodels\\dulieuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\ltw_tuan05_bai2\\views\\home\\sanphamtheoloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\views\\home\\sanphamtheoloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\ltw_tuan05_bai2\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\models\\dulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\ltw_tuan05_bai2\\views\\home\\hienthiloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B04B7A39-5CCA-434F-B306-964F5344C8CE}|LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2.csproj|solutionrelative:ltw_tuan05_bai2\\views\\home\\hienthiloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhanLoaiSP.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\PhanLoaiSP.cshtml",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\Views\\Home\\PhanLoaiSP.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\PhanLoaiSP.cshtml",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\Views\\Home\\PhanLoaiSP.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T14:50:13.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TimKiemSanPham.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\TimKiemSanPham.cshtml",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\Views\\Home\\TimKiemSanPham.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\TimKiemSanPham.cshtml",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\Views\\Home\\TimKiemSanPham.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T14:11:52.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DuLieu.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Models\\DuLieu.cs",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\Models\\DuLieu.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Models\\DuLieu.cs",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\Models\\DuLieu.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAADwv1MAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:22:33.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SanPhamTheoLoai.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\SanPhamTheoLoai.cshtml",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\Views\\Home\\SanPhamTheoLoai.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\SanPhamTheoLoai.cshtml",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\Views\\Home\\SanPhamTheoLoai.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:08:12.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DuLieuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\ViewModels\\DuLieuViewModel.cs",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\ViewModels\\DuLieuViewModel.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\ViewModels\\DuLieuViewModel.cs",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\ViewModels\\DuLieuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:51:29.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:02:58.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwDwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:56:55.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HienThiLoai.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\HienThiLoai.cshtml",
+              "RelativeDocumentMoniker": "LTW_Tuan05_Bai2\\Views\\Home\\HienThiLoai.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan05_Bai2\\LTW_Tuan05_Bai2\\Views\\Home\\HienThiLoai.cshtml",
+              "RelativeToolTip": "LTW_Tuan05_Bai2\\Views\\Home\\HienThiLoai.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T13:47:52.917Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

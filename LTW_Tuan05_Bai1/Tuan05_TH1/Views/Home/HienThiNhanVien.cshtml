@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Tuan05_TH1.Models.Employee>
+@{
+    ViewBag.Title = "HienThiNhanVien";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>HienThiNhanVien</h2>
+<p>
+    @Html.ActionLink("Thêm mới nhân viên", "Create")
+</p>
+<table class="table table-striped border">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Mã nhân viên
+            </th>
+            <th>
+                Tên nhân viên
+            </th>
+            <th>
+                Giới tính
+            </th>
+            <th>
+                Tỉnh/Thành phố
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaNV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GioiTinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tinh)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id = item.Primary */}) |
+            @Html.ActionLink("Details", "Details", new { /* id = item.Primary */}) |
+            @Html.ActionLink("Delete", "Delete", new { /* id = item.Primary */}) 
+        </td>
+    </tr>
+}
+</table>   
