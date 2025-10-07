@@ -1,0 +1,28 @@
+﻿@model IEnumerable<LTW_Tuan06_Bai1.Models.SanPham>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<main>
+    <div class="container">
+        <h2 class="section-title">Sản Phẩm Nổi Bật</h2>
+        <div class="card-container">
+            @foreach (var item in Model) { 
+                <div class="card">
+                <div class="card-img-container">
+                    <img src="~/Content/Image/@item.Hinh" alt="Sản phẩm 1" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">@item.TenSP</h3>
+                    <p class="card-text">@item.GhiChu</p>
+                    <a href="@Url.Action("ChiTiet", "Product", new { maSP = @item.MaSanPham})" class="card-button">
+                        Xem Chi Tiết
+                    </a>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</main>

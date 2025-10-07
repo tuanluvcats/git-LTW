@@ -1,0 +1,39 @@
+﻿@model LTW_Tuan06_Bai1.ViewModels.ds_SanPham_ViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "SanPham";
+}
+
+<main>
+    <ul class="menu">
+        @foreach (var list in Model.Loais)
+        {
+            <li>
+                <a href="@Url.Action("SanPham", "Product", new { maL = list.MaLoai })">
+                    @list.TenLoai
+                </a>
+            </li>
+        }
+    </ul>
+    <div class="container">
+        <div class="card-container">
+            @foreach (var item in Model.SanPhams)
+            {
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="~/Content/Image/@item.Hinh" alt="Sản phẩm 1" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">@item.TenSP</h3>
+                        <p class="card-text">@item.GhiChu</p>
+                        <a href="@Url.Action("ChiTiet", "Product", new { maSP = item.MaSanPham })" class="card-button">
+                            Xem Chi Tiết
+                        </a>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>

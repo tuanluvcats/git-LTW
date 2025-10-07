@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFE6CF6-BBC3-4BC5-B939-42E4E835C2F5}|LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\ltw_tuan06_bai1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CFE6CF6-BBC3-4BC5-B939-42E4E835C2F5}|LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1.csproj|solutionrelative:ltw_tuan06_bai1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFE6CF6-BBC3-4BC5-B939-42E4E835C2F5}|LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1.csproj|c:\\users\\gmone\\documents\\ltw\\git-ltw\\ltw_tuan06_bai1\\ltw_tuan06_bai1\\content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0CFE6CF6-BBC3-4BC5-B939-42E4E835C2F5}|LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1.csproj|solutionrelative:ltw_tuan06_bai1\\content\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CFE6CF6-BBC3-4BC5-B939-42E4E835C2F5}|LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1.csproj|C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\ltw_tuan06_bai1\\views\\product\\sanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CFE6CF6-BBC3-4BC5-B939-42E4E835C2F5}|LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1.csproj|solutionrelative:ltw_tuan06_bai1\\views\\product\\sanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1\\Content\\style.css",
+              "RelativeDocumentMoniker": "LTW_Tuan06_Bai1\\Content\\style.css",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1\\Content\\style.css",
+              "RelativeToolTip": "LTW_Tuan06_Bai1\\Content\\style.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAuwHcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-07T15:50:43.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "LTW_Tuan06_Bai1\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "LTW_Tuan06_Bai1\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:48:14.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPham.cshtml",
+              "DocumentMoniker": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1\\Views\\Product\\SanPham.cshtml",
+              "RelativeDocumentMoniker": "LTW_Tuan06_Bai1\\Views\\Product\\SanPham.cshtml",
+              "ToolTip": "C:\\Users\\gmone\\Documents\\LTW\\git-LTW\\LTW_Tuan06_Bai1\\LTW_Tuan06_Bai1\\Views\\Product\\SanPham.cshtml",
+              "RelativeToolTip": "LTW_Tuan06_Bai1\\Views\\Product\\SanPham.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T07:10:38.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

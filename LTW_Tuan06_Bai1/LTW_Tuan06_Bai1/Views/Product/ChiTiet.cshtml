@@ -1,0 +1,38 @@
+﻿@model LTW_Tuan06_Bai1.Models.SanPham
+
+@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container">
+        <h2 class="section-title">Chi Tiết Sản Phẩm</h2>
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Mã sản phẩm</th>
+                        <th>Tên Sản Phẩm</th>
+                        <th>Giá</th>
+                        <th>Giới thiệu</th>
+                        <th>Hình ảnh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.MaSanPham</td>
+                        <td>@Model.TenSP</td>
+                        <td>@Model.Gia</td>
+                        <td>@Model.GhiChu</td>
+                        <td>
+                            <img src="~/Content/Image/@Model.Hinh" alt="@Model.TenSP" width="100" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br />
+        <a href="@Url.Action("SanPham", "Product")" class="btn-back">Quay lại danh sách</a>
+    </div>
+</main>

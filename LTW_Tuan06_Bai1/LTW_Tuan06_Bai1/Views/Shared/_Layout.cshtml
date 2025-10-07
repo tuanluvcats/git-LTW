@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet" href="~/Content/style.css">
+    <script src="~/Scripts/script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Logo Website</div>
+                <nav>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Product")">Trang Chủ</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Dịch Vụ</a></li>
+                        <li><a href="@Url.Action("SanPham", "Product")">Sản Phẩm</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+
+                        @if (Session["TenKhachHang"] == null)
+                        {
+                            <li><a href="@Url.Action("DangNhap", "Product")" class="btn btn-login">Đăng nhập</a></li>
+                            <li><a href="@Url.Action("DangKy", "Product")" class="btn btn-register">Đăng ký ngay</a></li>
+                        }
+                        else
+                        {
+                            <li><span>Xin chào, @Session["TenKhachHang"]!</span></li>
+                            <li><a href="@Url.Action("DangXuat", "Product")" class="btn btn-logout">Đăng xuất</a></li>
+                        }
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <nav>
+        @RenderBody()
+    </nav>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Thông Tin Liên Hệ</h3>
+                    <p>Địa chỉ: 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+                    <p>Điện thoại: (0123) 456-789</p>
+                    <p>Email: contact@example.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liên Kết Nhanh</h3>
+                    <a href="#">Trang Chủ</a>
+                    <a href="#">Giới Thiệu</a>
+                    <a href="#">Dịch Vụ</a>
+                    <a href="#">Sản Phẩm</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Theo Dõi Chúng Tôi</h3>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Tên Công Ty. Tất cả các quyền được bảo lưu. | Phát triển bởi Nhóm Phát Triển</p>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+

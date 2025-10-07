@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="form-title">Đăng Nhập</h2>
+
+            @if (ViewBag.ThongBao != null)
+            {
+                <div class="alert alert-danger">@ViewBag.ThongBao</div>
+            }
+
+            <form method="post" action="@Url.Action("DangNhap", "Product")">
+                <div class="form-group">
+                    <label for="tenKH">Tên đăng nhập</label>
+                    <input type="text" name="tenKH" id="tenKH" required />
+                </div>
+                <div class="form-group">
+                    <label for="matKhau">Mật khẩu</label>
+                    <input type="password" name="matKhau" id="matKhau" required />
+                </div>
+                <button type="submit" class="form-button">Đăng Nhập</button>
+            </form>
+        </div>
+    </div>
+</main>
