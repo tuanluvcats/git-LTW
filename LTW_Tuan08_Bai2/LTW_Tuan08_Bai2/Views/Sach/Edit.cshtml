@@ -1,0 +1,139 @@
+﻿@model LTW_Tuan08_Bai2.Models.sach
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CHỈNH SỬA THÔNG TIN SÁCH</h2>
+@using (Html.BeginForm("Edit", "Sach", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset style="max-width: 700px; padding: 15px; border: 1px solid #ddd; border-radius: 10px;">
+        <style>
+            .edit-row {
+                display: flex;
+                padding: 8px 0;
+                align-items: center;
+                border-bottom: 1px solid #eee;
+            }
+
+            .edit-label {
+                width: 180px;
+                font-weight: bold;
+                color: #333;
+            }
+
+            .edit-field {
+                flex-grow: 1;
+            }
+
+                .edit-field input[type="text"],
+                .edit-field input[type="number"],
+                .edit-field input[type="date"],
+                .edit-field select,
+                .edit-field textarea {
+                    width: 100%;
+                    padding: 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+
+                .edit-field img {
+                    max-width: 180px;
+                    height: auto;
+                    display: block;
+                    margin-top: 5px;
+                }
+
+            .actions {
+                margin-top: 20px;
+            }
+
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                padding: 8px 15px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                input[type="submit"]:hover {
+                    background-color: #45a049;
+                }
+        </style>
+        @Html.HiddenFor(model => model.maSach)
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.tenSach)</div>
+            <div class="edit-field">
+                @Html.EditorFor(m => m.tenSach)
+                @Html.ValidationMessageFor(m => m.tenSach)
+            </div>
+        </div>
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.giaBan)</div>
+            <div class="edit-field">
+                @Html.EditorFor(m => m.giaBan)
+                @Html.ValidationMessageFor(m => m.giaBan)
+            </div>
+        </div>
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.moTa)</div>
+            <div class="edit-field">
+                @Html.TextAreaFor(m => m.moTa, new { rows = 3 })
+                @Html.ValidationMessageFor(m => m.moTa)
+            </div>
+        </div>
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.anhBia)</div>
+            <div class="edit-field">
+                <input type="file" name="fileUpload" />
+                @if (!string.IsNullOrEmpty(Model.anhBia))
+                {
+                    <img src="@Url.Content("~/Content/images/" + Model.anhBia)" alt="Ảnh hiện tại" />
+                }
+                @Html.ValidationMessageFor(m => m.anhBia)
+                <br />
+                @ViewBag.ThongBao
+            </div>
+        </div>
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.ngayCapNhat)</div>
+            <div class="edit-field">
+                <<input type="date" name="ngayCapNhat"
+                        value="@string.Format("{0:yyyy-MM-dd}", Model.ngayCapNhat)" />
+            </div>
+        </div>
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.soLuongTon)</div>
+            <div class="edit-field">
+                @Html.EditorFor(m => m.soLuongTon)
+                @Html.ValidationMessageFor(m => m.soLuongTon)
+            </div>
+        </div>
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.maCD)</div>
+            <div class="edit-field">
+                @Html.DropDownList("maCD", (SelectList)ViewBag.MaCD, "--Chọn chủ đề--")
+                @Html.ValidationMessageFor(m => m.maCD)
+            </div>
+        </div>
+        <div class="edit-row">
+            <div class="edit-label">@Html.LabelFor(m => m.maNXB)</div>
+            <div class="edit-field">
+                @Html.DropDownList("maNXB", (SelectList)ViewBag.MaNXB, "--Chọn nhà xuất bản--")
+                @Html.ValidationMessageFor(m => m.maNXB)
+            </div>
+        </div>
+        <div class="actions">
+            <input type="submit" value="Lưu thay đổi" />
+            @Html.ActionLink("Quay lại danh sách", "DMSach", null, new { @class = "btn btn-secondary" })
+        </div>
+    </fieldset>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

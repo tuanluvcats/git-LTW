@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="qltvModelStoreContainer" CdmEntityContainer="qltvEntities1">
+    <EntitySetMapping Name="chitietdonhangs">
+      <EntityTypeMapping TypeName="qltvModel.chitietdonhang">
+        <MappingFragment StoreEntitySet="chitietdonhang">
+          <ScalarProperty Name="maDonHang" ColumnName="maDonHang" />
+          <ScalarProperty Name="maSach" ColumnName="maSach" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="donGia" ColumnName="donGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="chudes">
+      <EntityTypeMapping TypeName="qltvModel.chude">
+        <MappingFragment StoreEntitySet="chude">
+          <ScalarProperty Name="maCD" ColumnName="maCD" />
+          <ScalarProperty Name="tenChuDe" ColumnName="tenChuDe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dondathangs">
+      <EntityTypeMapping TypeName="qltvModel.dondathang">
+        <MappingFragment StoreEntitySet="dondathang">
+          <ScalarProperty Name="maDonHang" ColumnName="maDonHang" />
+          <ScalarProperty Name="daThanhToan" ColumnName="daThanhToan" />
+          <ScalarProperty Name="tinhtrangDonHang" ColumnName="tinhtrangDonHang" />
+          <ScalarProperty Name="ngayDat" ColumnName="ngayDat" />
+          <ScalarProperty Name="ngayGiao" ColumnName="ngayGiao" />
+          <ScalarProperty Name="maKH" ColumnName="maKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khachhangs">
+      <EntityTypeMapping TypeName="qltvModel.khachhang">
+        <MappingFragment StoreEntitySet="khachhang">
+          <ScalarProperty Name="maKH" ColumnName="maKH" />
+          <ScalarProperty Name="hoTen" ColumnName="hoTen" />
+          <ScalarProperty Name="taiKhoan" ColumnName="taiKhoan" />
+          <ScalarProperty Name="matKhau" ColumnName="matKhau" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="diaChiKH" ColumnName="diaChiKH" />
+          <ScalarProperty Name="dienThoaiKH" ColumnName="dienThoaiKH" />
+          <ScalarProperty Name="ngaySinh" ColumnName="ngaySinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nhaxuatbans">
+      <EntityTypeMapping TypeName="qltvModel.nhaxuatban">
+        <MappingFragment StoreEntitySet="nhaxuatban">
+          <ScalarProperty Name="maNXB" ColumnName="maNXB" />
+          <ScalarProperty Name="tenNXB" ColumnName="tenNXB" />
+          <ScalarProperty Name="diaChi" ColumnName="diaChi" />
+          <ScalarProperty Name="dienThoai" ColumnName="dienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="saches">
+      <EntityTypeMapping TypeName="qltvModel.sach">
+        <MappingFragment StoreEntitySet="sach">
+          <ScalarProperty Name="maSach" ColumnName="maSach" />
+          <ScalarProperty Name="tenSach" ColumnName="tenSach" />
+          <ScalarProperty Name="giaBan" ColumnName="giaBan" />
+          <ScalarProperty Name="moTa" ColumnName="moTa" />
+          <ScalarProperty Name="anhBia" ColumnName="anhBia" />
+          <ScalarProperty Name="ngayCapNhat" ColumnName="ngayCapNhat" />
+          <ScalarProperty Name="soLuongTon" ColumnName="soLuongTon" />
+          <ScalarProperty Name="maCD" ColumnName="maCD" />
+          <ScalarProperty Name="maNXB" ColumnName="maNXB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tacgias">
+      <EntityTypeMapping TypeName="qltvModel.tacgia">
+        <MappingFragment StoreEntitySet="tacgia">
+          <ScalarProperty Name="maTG" ColumnName="maTG" />
+          <ScalarProperty Name="tenTg" ColumnName="tenTg" />
+          <ScalarProperty Name="diaChi" ColumnName="diaChi" />
+          <ScalarProperty Name="dienThoai" ColumnName="dienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vietsaches">
+      <EntityTypeMapping TypeName="qltvModel.vietsach">
+        <MappingFragment StoreEntitySet="vietsach">
+          <ScalarProperty Name="maTg" ColumnName="maTg" />
+          <ScalarProperty Name="maSach" ColumnName="maSach" />
+          <ScalarProperty Name="vaiTro" ColumnName="vaiTro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

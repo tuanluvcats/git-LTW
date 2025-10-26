@@ -1,0 +1,89 @@
+﻿@model LTW_Tuan08_Bai2.Models.sach
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN SÁCH CẦN XÓA</h2>
+
+<h4>Bạn quyết định xóa quyển sách này?</h4>
+<style>
+    .detail-row {
+        display: flex;
+        padding: 5px 0;
+        border-bottom: 1px solid #ddd;
+        align-items: center;
+        max-width: 600px;
+    }
+
+    .detail-label {
+        width: 150px;
+        font-weight: bold;
+        color: #333;
+        flex-shrink: 0;
+    }
+
+    .detail-value {
+        flex-grow: 1;
+        color: #555;
+    }
+
+        .detail-value img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+        }
+</style>
+
+<div>
+    <div class="detail-row">
+        <div class="detail-label">Tên sách</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.tenSach)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">Giá bán</div>
+        <div class="detail-value">@String.Format("{0:N0}", Model.giaBan) VND</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">Mô tả</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.moTa)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">Ảnh bìa</div>
+        <div class="detail-value">
+            <img src="@Url.Content("~/Content/images/" + Model.anhBia)" alt="Ảnh bìa sách" />
+        </div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">Ngày cập nhật</div>
+        <div class="detail-value">@String.Format("{0:dd/MM/yyyy}", Model.ngayCapNhat)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">Số lượng tồn</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.soLuongTon)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">Chủ đề:</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.chude.tenChuDe)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">Nhà xuất bản</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.nhaxuatban.tenNXB)</div>
+    </div>
+</div>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <div>
+        <input type="submit" value="Delete" class="btn" /> |
+        @Html.ActionLink("Back to List", "DMSach")
+    </div>
+}

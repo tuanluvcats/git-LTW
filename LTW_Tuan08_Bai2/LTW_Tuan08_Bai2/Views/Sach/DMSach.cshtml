@@ -1,0 +1,61 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.PagedList<LTW_Tuan08_Bai2.Models.sach>
+
+@{
+    ViewBag.Title = "DMSach";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>QUẢN LÝ THÔNG TIN SÁCH</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+    <table class="table">
+        <tr>
+            <th>
+                Tensach
+            </th>
+            <th>
+                Giaban
+            </th>
+            <th>
+                Mota
+            </th>
+            <th>
+                Anhbia
+            </th>
+            <th>
+                Ngaycapnhat
+            </th>
+            <th>
+                Soluongton
+            </th>
+            <th>
+                MaCD
+            </th>
+            <th></th>
+        </tr>
+
+           @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.tenSach)</td>
+                <td>@Html.DisplayFor(modelItem => item.giaBan)</td>
+                <td>@Html.DisplayFor(modelItem => item.moTa)</td>
+                <td>
+                    <img src="@Url.Content("~/Content/images/" + item.anhBia)" alt="@item.tenSach" />
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.ngayCapNhat)</td>
+                <td>@Html.DisplayFor(modelItem => item.soLuongTon)</td>
+                <td>@Html.DisplayFor(modelItem => item.chude.tenChuDe)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.maSach }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.maSach }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.maSach })
+                </td>
+            </tr>
+        }
+
+    </table>
