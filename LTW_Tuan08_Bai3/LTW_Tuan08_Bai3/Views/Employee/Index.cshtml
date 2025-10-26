@@ -1,0 +1,45 @@
+﻿@model PagedList.IPagedList<LTW_Tuan08_Bai3.Models.tbl_Employee>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2 class="mt-3">Danh sách nhân viên</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-success ml-3">+ Thêm nhân viên <br /></a>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Mã NV</th>
+            <th>Tên nhân viên</th>
+            <th>Giới tính</th>
+            <th>Thành phố</th>
+            <th>Ảnh</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+                <td>@emp.Gender</td>
+                <td>@emp.City</td>
+                <td>
+                    <img src="~/images/employees/@(emp.Id).jpg" width="70" height="70" class="rounded" />
+                </td>
+                <td>
+                    @Html.ActionLink("Chi tiết", "Details", new { id = emp.Id }, new { @class = "btn btn-info btn-sm" })
+                    @Html.ActionLink("Sửa", "Edit", new { id = emp.Id }, new { @class = "btn btn-warning btn-sm" })
+                    @Html.ActionLink("Xóa", "Delete", new { id = emp.Id }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="text-center">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, deptId = ViewBag.SelectedDeptId }))
+</div>

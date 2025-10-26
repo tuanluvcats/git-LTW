@@ -1,0 +1,25 @@
+﻿@model LTW_Tuan08_Bai3.Models.tbl_Employee
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>THÔNG TIN CHI TIẾT NHÂN VIÊN</h2>
+<div>
+    <img src="~/images/employees/@(Model.Id).jpg" width="150" height="150" class="rounded mb-3" />
+    <dl class="row">
+        <dt class="col-sm-3">Mã NV</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+        <dt class="col-sm-3">Tên nhân viên</dt>
+        <dd class="col-sm-9">@Model.Name</dd>
+        <dt class="col-sm-3">Giới tính</dt>
+        <dd class="col-sm-9">@Model.Gender</dd>
+        <dt class="col-sm-3">Lương</dt>
+        <dd class="col-sm-9">@Model.City</dd>
+        <dt class="col-sm-3">Phòng ban</dt>
+        <dd class="col-sm-9">@Model.tbl_Department.Name</dd>
+    </dl>
+    @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-secondary" })
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.Id }, new { @class = "btn btn-warning ml-2" })
+</div>

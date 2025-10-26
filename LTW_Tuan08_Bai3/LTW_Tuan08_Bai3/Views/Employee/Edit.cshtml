@@ -1,0 +1,39 @@
+﻿@model LTW_Tuan08_Bai3.Models.tbl_Employee
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chỉnh sửa nhân viên</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.Label("Giới tính")
+            @Html.DropDownListFor(m => m.Gender, (SelectList)ViewBag.GenderList, "-- Chọn giới tính --", new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.Label("Lương")
+            @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.Label("Phòng ban")
+            @Html.DropDownListFor(m => m.DeptId, (SelectList)ViewBag.DeptId, "-- Chọn phòng ban --", new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <img src="~/images/employees/@(Model.Id).jpg" width="100" height="100" class="rounded mb-2" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+            @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-secondary ml-2" })
+        </div>
+    </div>
+}

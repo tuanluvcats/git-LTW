@@ -1,0 +1,24 @@
+﻿@model LTW_Tuan08_Bai3.Models.tbl_Employee
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa nhân viên</h2>
+
+<h3>Xác nhận xóa nhân viên này?</h3>
+
+<dl class="row">
+    <dt class="col-sm-3">Mã NV</dt>
+    <dd class="col-sm-9">@Model.Id</dd>
+    <dt class="col-sm-3">Phòng ban</dt>
+    <dd class="col-sm-9">@Model.tbl_Department?.Name</dd>
+</dl>
+@using (Html.BeginForm("Delete", "Employee", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    @Html.ActionLink("Hủy", "Index", null, new { @class = "btn btn-secondary ml-2" })
+}
