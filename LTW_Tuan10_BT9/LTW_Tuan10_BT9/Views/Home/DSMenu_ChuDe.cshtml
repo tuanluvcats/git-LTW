@@ -1,0 +1,10 @@
+﻿@model List<LTW_Tuan10_BT9.Models.ChuDe>
+
+<ul class="nav flex-column">
+    @foreach (var cd in @Model)
+    {
+        <li class="nav-item border">
+            @Html.ActionLink(cd.TenChuDe, "HTDanhSachTheoChuDe","Home", new { id = cd.MaChuDe }, new { @class = "nav-link" })
+        </li>
+    }
+</ul>

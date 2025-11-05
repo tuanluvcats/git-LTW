@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Fahasa Việt Nam</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/App.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<body>
+    @Html.Partial("_Header")
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <h1 class="bg-success large"> CHỦ ĐỀ </h1>
+                @Html.Action("DSMenu_ChuDe", "Home")
+
+                <h1 class="bg-success large"> NHÀ XUẤT BẢN </h1>
+                @Html.Action("DSMenu_NXB", "Home")
+            </div>
+  
+            <div class="col-md-9">
+                <div>
+                    <img src="~/Content/images/Anh0.jpg" class="w-100" />
+                </div>
+                <div>
+                    @RenderBody()
+                </div>
+            </div> 
+        </div>
+    </div>      
+    @Html.Partial("_Footer")
+    <script src="~/Scripts/jquery-3.7.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/site.js"></script>
+    ```
+
+</body>
+</html>

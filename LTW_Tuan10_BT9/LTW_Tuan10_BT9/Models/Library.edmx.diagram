@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d0b5653de87647238215e8ed16ab769e" Name="Diagram1">
+        <EntityTypeShape EntityType="db_ThuvienModel.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_ThuvienModel.ChuDe" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_ThuvienModel.DonHang" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_ThuvienModel.KhachHang" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_ThuvienModel.NhaXuatBan" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_ThuvienModel.Sach" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_ThuvienModel.TacGia" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_ThuvienModel.ThamGia" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="db_ThuvienModel.FK_CT_DH" ManuallyRouted="false" />
+        <AssociationConnector Association="db_ThuvienModel.FK_CT_SH" ManuallyRouted="false" />
+        <AssociationConnector Association="db_ThuvienModel.FK_SH_CD" ManuallyRouted="false" />
+        <AssociationConnector Association="db_ThuvienModel.FK_DH_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="db_ThuvienModel.FK_SH_NXB" ManuallyRouted="false" />
+        <AssociationConnector Association="db_ThuvienModel.FK_TG_SH" ManuallyRouted="false" />
+        <AssociationConnector Association="db_ThuvienModel.FK_TG_TGi" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "LoginSuccesfully";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model LTW_Tuan10_BT9.Models.KhachHang
+<div class="container mt-5 text-center">
+    <h3 class="text-success">Đăng nhập thành công!</h3>
+    <p>Xin chào, <strong>@Model.HoTen</strong>!</p>
+    <p>Email: @Model.Email</p>
+    <p>Địa chỉ: @Model.DiaChi</p>
+    <a href="@Url.Action("Main", "Home")" class="btn btn-primary mt-3">Về trang chủ</a>
+</div>

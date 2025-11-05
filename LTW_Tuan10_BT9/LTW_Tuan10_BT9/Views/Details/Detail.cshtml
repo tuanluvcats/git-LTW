@@ -1,0 +1,82 @@
+﻿@model LTW_Tuan10_BT9.Models.Sach
+@{
+    ViewBag.Title = "Chi tiết sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="@Url.Content("~/Content/images/" + Model.AnhBia)"
+                 class="img-fluid border p-2" alt="@Model.TenSach" style="max-height:400px;" />
+        </div>
+        <div class="col-md-8">
+            <h2 class="text-primary">@Model.TenSach</h2>
+            <p>
+                <strong>Tác giả:</strong>
+                @if (ViewBag.TacGias != null && ((List<string>)ViewBag.TacGias).Count > 0)
+                {
+                    foreach (var tg in (List<string>)ViewBag.TacGias)
+                    {
+                        @tg<br />
+                    }
+                }
+                else
+                {
+                    <span>Không rõ tác giả</span>
+                }
+            </p>
+            <p><strong>Giá bán:</strong> @string.Format("{0:N0} VNĐ", Model.GiaBan)</p>
+            <p><strong>Mô tả:</strong></p>
+            <p>@Model.MoTa</p>
+            <a href="@Url.Action("Main", "Home")" class="btn btn-secondary">← Quay về trang chủ</a>
+        </div>
+    </div>
+    <hr />
+    <h3 class="mt-4 text-success">SÁCH CÙNG CHỦ ĐỀ</h3>
+    <div class="row">
+        @if (ViewBag.CungChuDe != null && ((List<LTW_Tuan10_BT9.Models.Sach>)ViewBag.CungChuDe).Count > 0)
+        {
+            foreach (var s in (List<LTW_Tuan10_BT9.Models.Sach>)ViewBag.CungChuDe)
+            {
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <img src="@Url.Content("~/Content/images/" + s.AnhBia)" class="card-img-top" alt="@s.TenSach" />
+                        <div class="card-body">
+                            <h6 class="card-title" title="@s.TenSach">@s.TenSach</h6>
+                            @Html.ActionLink("Chi tiết", "Index", "Detail", new { id = s.MaSach }, new { @class = "btn btn-outline-warning btn-sm" })
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-muted ml-3">Không có sách nào cùng chủ đề.</p>
+        }
+    </div>
+
+    <!-- 🔹 PHẦN 2: SÁCH CÙNG NHÀ XUẤT BẢN -->
+    <hr />
+    <h3 class="mt-4 text-info">SÁCH CÙNG NHÀ XUẤT BẢN</h3>
+    <div class="row">
+        @if (ViewBag.CungNXB != null && ((List<LTW_Tuan10_BT9.Models.Sach>)ViewBag.CungNXB).Count > 0)
+        {
+            foreach (var s in (List<LTW_Tuan10_BT9.Models.Sach>)ViewBag.CungNXB)
+            {
+                <div class="col-md-3 text-center mb-4">
+                    <div class="card">
+                        <img src="@Url.Content("~/Content/images/" + s.AnhBia)" class="card-img-top" alt="@s.TenSach" />
+                        <div class="card-body">
+                            <h6 class="card-title" title="@s.TenSach">@s.TenSach</h6>
+                            @Html.ActionLink("Chi tiết", "Index", "Detail", new { id = s.MaSach }, new { @class = "btn btn-outline-info btn-sm" })
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-muted ml-3">Không có sách nào cùng nhà xuất bản.</p>
+        }
+    </div>
+</div>

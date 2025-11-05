@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model LTW_Tuan10_BT9.Models.KhachHang
+
+<div class="container mt-5 w-50">
+    <h3 class="text-center text-primary mb-4">ĐĂNG KÝ TÀI KHOẢN</h3>
+    @if (ViewBag.ThongBao != null)
+    {
+        <div class="alert alert-danger">@ViewBag.ThongBao</div>
+    }
+    @using (Html.BeginForm("Register", "Customer", FormMethod.Post))
+    {
+        <div class="form-group">
+            <label for="HoTen">Họ tên</label>
+            <input type="text" class="form-control" id="HoTen" name="HoTen" required />
+        </div>
+
+        <div class="form-group">
+            <label for="TaiKhoan">Tên đăng nhập</label>
+            <input type="text" class="form-control" id="TaiKhoan" name="TaiKhoan" required />
+        </div>
+
+        <div class="form-group">
+            <label for="MatKhau">Mật khẩu</label>
+            <input type="password" class="form-control" id="MatKhau" name="MatKhau" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="Email" name="Email" />
+        </div>
+
+        <div class="form-group">
+            <label for="DiaChi">Địa chỉ</label>
+            <input type="text" class="form-control" id="DiaChi" name="DiaChi" />
+        </div>
+
+        <button type="submit" class="btn btn-success mt-2">Đăng ký</button>
+        <a href="@Url.Action("Login", "Customer")" class="btn btn-secondary mt-2">Quay lại đăng nhập</a>
+    }
+</div>
+
